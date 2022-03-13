@@ -1,0 +1,1 @@
+CREATE TABLE clientes (id serial NOT NULL PRIMARY KEY, nome varchar(200), cpf varchar(100) UNIQUE, dtnascimento date);
