@@ -20,7 +20,7 @@
 	catch(Exception $e) 
 	{
 		$err  = "<HTML>";
-		$err .= "<LINK rel=\"stylesheet\" type=\"text/css\" href=\"ext/resources/css/ifractal.css\" />";
+		$err .= "<LINK rel=\"stylesheet\" type=\"text/css\" href=\"ext/resources/css/bruno.css\" />";
 		$err .= "<BODY class=\"mainbody\">";
 		$err .= "<CENTER><FONT size=5 color=red>Erro ao conectar o Banco de Dados ".HOST."/".DBNAME.".</FONT><BR>Contate o administrador.<BR></CENTER>";
 		$err .= "</BODY>";
