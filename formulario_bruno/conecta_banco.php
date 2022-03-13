@@ -26,7 +26,7 @@
 		$err .= "</BODY>";
 		$err .= "</HTML>";
 		echo $err;
-		echo ifractal_json_encode(array("success"=>false, "error_html"=>$err));
+		echo bruno_json_encode(array("success"=>false, "error_html"=>$err));
 		exit(3);
 	}
 
